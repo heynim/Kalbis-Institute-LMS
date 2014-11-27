@@ -1,0 +1,91 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #22262B;
+}
+
+#top {
+    height: 50px;
+    background: #00B4B4;
+}
+
+#main {
+    position: absolute;
+    top: 50%; left: 50%;
+    margin-left: -400px;
+    margin-top: -250px;
+    width: 800px;
+    height: 500px;
+}
+
+#left {
+    position: absolute;
+    top: 0px; left: 0px;
+    height: 100%;
+    width: 200px;
+    widows: 100px;
+}
+
+#right {
+    position: absolute;
+    top 0px; right: 0px;
+    height: 100%;
+    width: 600px;
+}
+
+#profile {
+    width: 180px;
+    height: 300px;
+    background: #fff;
+}
+
+#nav {
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+    background: #00B4B4;
+}
+
+#nav ul {
+    padding: 0px;
+    list-style: none;
+}
+
+#nav li {
+    line-height: 90px;
+}
+
+#nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+#select {
+    width: 100%;
+    float: right;
+    height: 100%;
+    background: #fff;
+}
+
+#select-head {
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 100%;
+    height: 50px;
+    background: #00B4B4;
+}
+
+#select-body {
+    margin-top: 50px;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.select-page {
+    width: 500px;
+    height: 100px;
+    background: #00B4B4;
+    margin: 10px auto 10px auto;
+}
