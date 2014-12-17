@@ -1,10 +1,66 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: #22262B;
+    background: url(../images/bg.png);
     font-family: verdana, sans-serif;
 }
 
+/** Login **/
+#login {
+    position: absolute;
+    top: 50%; left: 50%;
+    margin-top: -100px; margin-left: -300px;
+    width: 600px;
+    height: 200px;
+}
+
+#login span {
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    color: #00B4B4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#login-form {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#login form {
+    text-align: center;
+}
+
+#login input[type="text"], #login input[type="password"] {
+    width: 233px;
+    padding: 5px;
+    background: none;
+    border: 2px solid #00B4B4;
+    color: #fff;
+}
+
+#login input[type="submit"] {
+    margin-top: 10px;
+    width: 500px;
+    padding: 10px;
+    background: #00B4B4;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+#login input[type="submit"]:hover {
+    background: #2dd8d8;
+}
+
+#login input[type="submit"]:active {
+    background: #fff;
+    color: #00B4B4;
+}
+
+/** Home **/
 #top {
     height: 50px;
     background: #00B4B4;
@@ -158,4 +214,15 @@ body {
 
 .select-page:hover {
     background: #2dd8d8;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    line-height: 30px;
+    background: #00b4b4;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
 }
