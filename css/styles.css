@@ -2,7 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     background: #22262B;
-    font-family: sans-serif;
+    font-family: verdana, sans-serif;
 }
 
 #top {
@@ -11,17 +11,18 @@ body {
 }
 
 #home-link {
-    width: 200px;
+    width: 250px;
     text-align: center;
     line-height: 50px;
     font-weight: bold;
-    font-size: 20px;
 }
 
 #home-link > a {
     display: block;
     text-decoration: none;
     color: #fff;
+    font-family: verdana, sans-serif;
+    font-size: 20px;
 }
 
 #home-link:hover {
