@@ -270,7 +270,7 @@ body {
 #session {
     box-sizing: border-box;
     width: 100%;
-    padding: 0px 10px 20px 10px;
+    padding: 20px 10px;
 }
 
 #session span {
@@ -288,6 +288,21 @@ body {
     margin-top: 10px;;
     width: 100px;
     height: 30px;
+}
+
+#session > form td {
+    padding: 5px;
+}
+
+#session > form {
+    width: 300px;
+    margin: auto;
+}
+
+#session > form input[type='submit'] {
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
 }
 
 #footer {
