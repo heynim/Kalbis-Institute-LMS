@@ -234,7 +234,7 @@ body {
     margin: 10px auto 10px auto;
 }
 
-.select-page a {
+.select-page > a {
     box-sizing: border-box;
     display: block;
     width: 100%;
@@ -262,9 +262,32 @@ body {
     font-size: 14px;
 }
 
-.select-page .class-time, .select-page .class-lecturer {
+.select-page .class-lecturer {
     color: #000;
     font-size: 14px;
+}
+
+#session {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 10px 20px 10px;
+}
+
+#session span {
+    display: block;
+}
+
+#session > #sess-upload {
+    width: 200px;
+    text-align: center;
+    border: 2px solid #00B4B4;
+    padding: 10px;
+}
+
+#session > #sess-upload input[type='submit'] {
+    margin-top: 10px;;
+    width: 100px;
+    height: 30px;
 }
 
 #footer {
