@@ -1,0 +1,9 @@
+INFINITY LEARNING
+
+1. 2012100202 Dyah Maharani Rahmadi		Database
+2. 2012100199 Juwita Oktaviani			Edit, Add
+3. 2012100109 Mirza Al Farisi			Delete
+4. 2012100165 M. Hanim M				Template
+5. 2012100087 Zhafiri Izhhar 			Login , Create
+
+URL : infinitylms.esy.es
