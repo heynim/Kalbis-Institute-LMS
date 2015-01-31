@@ -267,6 +267,11 @@ body {
     font-size: 14px;
 }
 
+.select-page .class-student {
+    color: #000;
+    font-size: 14px;
+}
+
 #session {
     box-sizing: border-box;
     width: 100%;
